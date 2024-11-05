@@ -45,12 +45,13 @@ The Chocolate House Management System allows a fictional chocolate house to mana
 1. **Clone the repository**  
    ```bash
    git clone https://github.com/aditya-technophile-06/Chocolate_House_Management_System_L7.git
-cd Chocolate_House_Management_System_L7
-python -m venv venv
-source venv/bin/activate       # On Linux or MacOS
-venv\Scripts\activate          # On Windows
-pip install -r requirements.txt
-python app.py
+
+   cd Chocolate_House_Management_System_L7
+   python -m venv venv
+   source venv/bin/activate       # On Linux or MacOS
+   venv\Scripts\activate          # On Windows
+   pip install -r requirements.txt
+   python app.py
 
 
 ## Video Samples
