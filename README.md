@@ -8,14 +8,8 @@ A simple Flask application to manage seasonal flavor offerings, ingredient inven
 - [Project Overview](#-project-overview)
 - [Features](#-features)
 - [Prerequisites](#-prerequisites)
-- [Installation](#-installation)
-- [Running the Application](#-running-the-application)
-- [Usage](#-usage)
-- [Docker Setup](#-docker-setup)
-- [Database](#-database)
-- [Troubleshooting](#-troubleshooting)
-- [License](#-license)
-
+- [Installation](#-installation-&-running-the-application)
+- [Video Samples](#-Video-Samples)
 ---
 
 ## 📖 Project Overview
@@ -40,7 +34,7 @@ The Chocolate House Management System allows a fictional chocolate house to mana
 
 ---
 
-## 📦 Installation
+## 📦 Installation & Running the Application
 
 1. **Clone the repository**  
    ```bash
