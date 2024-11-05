@@ -1,26 +1,59 @@
-# Chocolate House Management System
+# 🍫 Chocolate House Management System
 
-## Introduction
+A simple Flask application to manage seasonal flavor offerings, ingredient inventory, and customer suggestions for a fictional chocolate house. This project uses SQLite as the database and provides CRUD operations for each module.
 
-This is a simple Flask web application that uses **SQLite** to manage:
+---
 
-- **Seasonal flavor offerings**
-- **Ingredient inventory**
-- **Customer flavor suggestions and allergy concerns**
+## 📋 Table of Contents
+- [Project Overview](#-project-overview)
+- [Features](#-features)
+- [Prerequisites](#-prerequisites)
+- [Installation](#-installation)
+- [Running the Application](#-running-the-application)
+- [Usage](#-usage)
+- [Docker Setup](#-docker-setup)
+- [Database](#-database)
+- [Troubleshooting](#-troubleshooting)
+- [License](#-license)
 
-## Prerequisites
+---
 
-- Python 3.x installed on your system
-- pip package manager
+## 📖 Project Overview
 
-## How to Run the Application
+The Chocolate House Management System allows a fictional chocolate house to manage:
+- Seasonal flavors
+- Ingredient inventory
+- Customer suggestions and allergy concerns
 
-1. **Clone the Repository**
+## ✨ Features
+- Create, read, update, and delete (CRUD) operations for seasonal flavors, ingredients, and customer suggestions.
+- Database setup using SQLite.
+- Simple and user-friendly interface built with Flask.
 
+---
+
+## ✅ Prerequisites
+
+- Python 3.8 or higher 🐍
+- SQLite (bundled with Python)
+- Git (optional, for cloning the project)
+
+---
+
+## 📦 Installation
+
+1. **Clone the repository**  
    ```bash
-   git clone <your_repository_url>
-   cd chocolate_house
-## video
+   git clone https://github.com/aditya-technophile-06/Chocolate_House_Management_System_L7.git
+cd Chocolate_House_Management_System_L7
+python -m venv venv
+source venv/bin/activate       # On Linux or MacOS
+venv\Scripts\activate          # On Windows
+pip install -r requirements.txt
+python app.py
+
+
+## Video Samples
 
 https://github.com/user-attachments/assets/a2911346-0ae9-43d2-ae62-575ab3540efa
 
