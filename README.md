@@ -8,7 +8,7 @@ A simple Flask application to manage seasonal flavor offerings, ingredient inven
 - [Project Overview](#-project-overview)
 - [Features](#-features)
 - [Prerequisites](#-prerequisites)
-- [Installation](#-installation-&-running-the-application)
+- [Installation](#-installation)
 - [Video Samples](#-Video-Samples)
 ---
 
