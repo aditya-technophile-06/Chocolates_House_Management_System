@@ -29,6 +29,7 @@ The Chocolate House Management System allows a fictional chocolate house to mana
 ## ✅ Prerequisites
 
 - Python 3.8 or higher 🐍
+- Flask
 - SQLite (bundled with Python)
 - Git (optional, for cloning the project)
 
