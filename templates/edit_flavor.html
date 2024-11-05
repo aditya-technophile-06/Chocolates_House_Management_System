@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h2>Edit Flavor</h2>
+<form method="post" action="{{ url_for('edit_flavor', flavor_id=flavor[0]) }}">
+    <div class="mb-3">
+        <label for="flavor_name" class="form-label">Flavor Name:</label>
+        <input type="text" name="flavor_name" id="flavor_name" class="form-control" value="{{ flavor[1] }}" required>
+    </div>
+    <div class="mb-3">
+        <label for="availability_start" class="form-label">Availability Start:</label>
+        <input type="date" name="availability_start" id="availability_start" class="form-control" value="{{ flavor[2] }}" required>
+    </div>
+    <div class="mb-3">
+        <label for="availability_end" class="form-label">Availability End:</label>
+        <input type="date" name="availability_end" id="availability_end" class="form-control" value="{{ flavor[3] }}" required>
+    </div>
+    <button type="submit" class="btn btn-success">Update Flavor</button>
+</form>
+{% endblock %}

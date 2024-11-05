@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h2>Edit Suggestion</h2>
+<form method="post" action="{{ url_for('edit_suggestion', suggestion_id=suggestion[0]) }}">
+    <div class="mb-3">
+        <label for="customer_name" class="form-label">Customer Name:</label>
+        <input type="text" name="customer_name" id="customer_name" class="form-control" value="{{ suggestion[1] }}" required>
+    </div>
+    <div class="mb-3">
+        <label for="suggested_flavor" class="form-label">Suggested Flavor:</label>
+        <input type="text" name="suggested_flavor" id="suggested_flavor" class="form-control" value="{{ suggestion[2] }}" required>
+    </div>
+    <div class="mb-3">
+        <label for="allergy_concern" class="form-label">Allergy Concern:</label>
+        <input type="text" name="allergy_concern" id="allergy_concern" class="form-control" value="{{ suggestion[3] }}">
+    </div>
+    <button type="submit" class="btn btn-success">Update Suggestion</button>
+</form>
+{% endblock %}

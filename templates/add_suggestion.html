@@ -1,0 +1,15 @@
+<!-- templates/add_suggestion.html -->
+{% extends "base.html" %}
+
+{% block content %}
+<h2>Add Customer Suggestion</h2>
+<form method="post">
+    <label for="customer_name">Customer Name:</label>
+    <input type="text" name="customer_name" required><br><br>
+    <label for="suggested_flavor">Suggested Flavor:</label>
+    <input type="text" name="suggested_flavor" required><br><br>
+    <label for="allergy_concern">Allergy Concern:</label>
+    <input type="text" name="allergy_concern"><br><br>
+    <input type="submit" value="Add Suggestion">
+</form>
+{% endblock %}

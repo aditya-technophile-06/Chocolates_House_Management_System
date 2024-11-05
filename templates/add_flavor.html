@@ -1,0 +1,15 @@
+<!-- templates/add_flavor.html -->
+{% extends "base.html" %}
+
+{% block content %}
+<h2>Add New Seasonal Flavor</h2>
+<form method="post">
+    <label for="flavor_name">Flavor Name:</label>
+    <input type="text" name="flavor_name" required><br><br>
+    <label for="availability_start">Availability Start:</label>
+    <input type="date" name="availability_start" required><br><br>
+    <label for="availability_end">Availability End:</label>
+    <input type="date" name="availability_end" required><br><br>
+    <input type="submit" value="Add Flavor">
+</form>
+{% endblock %}

@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h2>Customer Suggestions</h2>
+<a href="{{ url_for('add_suggestion') }}" class="btn btn-primary mb-3">Add New Suggestion</a>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Customer Name</th>
+            <th>Suggested Flavor</th>
+            <th>Allergy Concern</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for suggestion in suggestions %}
+        <tr>
+            <td>{{ suggestion[0] }}</td>
+            <td>{{ suggestion[1] }}</td>
+            <td>{{ suggestion[2] }}</td>
+            <td>{{ suggestion[3] }}</td>
+            <td>
+                <a href="{{ url_for('edit_suggestion', suggestion_id=suggestion[0]) }}" class="btn btn-warning">Edit</a>
+                <a href="{{ url_for('delete_suggestion', suggestion_id=suggestion[0]) }}" class="btn btn-danger">Delete</a>
+            </td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endblock %}
