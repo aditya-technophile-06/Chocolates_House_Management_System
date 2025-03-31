@@ -52,6 +52,3 @@ The Chocolate House Management System allows a fictional chocolate house to mana
 ## Video Samples
 
 https://github.com/user-attachments/assets/a2911346-0ae9-43d2-ae62-575ab3540efa
-
-
-https://github.com/user-attachments/assets/dbedb4fa-cd3c-4d3f-a24c-5c38040a136e
